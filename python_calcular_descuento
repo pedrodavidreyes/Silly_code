@@ -1,0 +1,5 @@
+#Prueba de creación de función
+def calcular_descuento(precio, porcentaje_descuento):
+    tasa_descuento = porcentaje_descuento / 100  # Convertir porcentaje a decimal
+    descuento = precio * tasa_descuento #calcular descuento
+    return precio - descuento # restar el descuento al precio
