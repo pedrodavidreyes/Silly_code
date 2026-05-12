@@ -1,0 +1,5 @@
+# crear función de prueba para formatear nombre
+def formatear_nombre(nombre, apellido):
+    nombre_formateado = nombre.strip().title()
+    apellido_formateado = apellido.strip().title()
+    return f"El apellido de {nombre_formateado} es {apellido_formateado}"
